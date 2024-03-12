@@ -19,10 +19,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
           <Headers />
-        {children}
-        <footer className="footer footer-center p-4 bg-base-300 text-base-content"></footer>
+          {children}
+          <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+            Copy arai
+          </footer>
         </div>
-        </body>
+      </body>
     </html>
   );
 }
